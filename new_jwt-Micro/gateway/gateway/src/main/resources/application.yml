@@ -1,0 +1,43 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      httpclient:
+        connect-timeout: 60000
+        response-timeout: 90s
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders:
+              - "Authorization"
+              - "Content-Type"
+              - "Accept"
+              - "Origin"
+              - "User-Agent"
+              - "DNT"
+              - "Cache-Control"
+              - "X-Mx-ReqToken"
+              - "X-Requested-With"
+              - "If-Modified-Since"
+              - "Keep-Alive"
+              - "X-Forwarded-For"
+              - "X-Forwarded-Proto"
+              - "X-Forwarded-Host"
+              - "X-Forwarded-Port"
+              - "Referer"
+            allowCredentials: true

@@ -1,0 +1,32 @@
+<p>image-upload works!</p>
+<div class="upload-container mat-elevation-z4">
+  <h2>📤 Upload Image</h2>
+
+  <form (submit)="onSubmit(); $event.preventDefault()" enctype="multipart/form-data">
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Description</mat-label>
+      <input matInput [(ngModel)]="description" name="description" required>
+    </mat-form-field>
+
+    <input type="file" (change)="onFileChange($event)" accept="image/*" required />
+
+    <div *ngIf="imagePreview" class="image-preview">
+      <img [src]="imagePreview" alt="Image Preview" />
+    </div>
+
+    <button mat-raised-button color="primary" type="submit" class="upload-btn">
+      Upload
+    </button>
+  </form>
+  
+  <div *ngIf="uploadedImages.length > 0" class="image-list">
+   <div style="display: flex;"><h2>🖼 Uploaded Images </h2> &nbsp; <span><mat-icon>refresh</mat-icon></span></div> 
+    <div class="image-grid">
+      <img
+        *ngFor="let img of uploadedImages"
+        [src]="img.url"
+        (click)="setAsBackground(img.id)"
+        title="Click to set as background"
+      />
+    </div>
+</div>
