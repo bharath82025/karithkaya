@@ -1,6 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { RabbitmqService } from './rabbitmq.service';
 import { HttpClient } from '@angular/common/http';
+import { imageurl } from './services/otherNewUrls';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -21,7 +22,7 @@ export class AppComponent  implements OnInit{
 
    
 loadBackgroundImage() {
-  this.http.get('http://localhost:9001/api/images/background', { responseType: 'blob' })
+  this.http.get(`${imageurl}/api/images/background`, { responseType: 'blob' })
     .subscribe(blob => {
       const reader = new FileReader();
       reader.onload = () => {

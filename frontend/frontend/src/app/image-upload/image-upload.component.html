@@ -18,7 +18,7 @@
       Upload
     </button>
   </form>
-  
+
   <div *ngIf="uploadedImages.length > 0" class="image-list">
    <div style="display: flex;"><h2>🖼 Uploaded Images </h2> &nbsp; <span><mat-icon>refresh</mat-icon></span></div> 
     <div class="image-grid">
@@ -28,5 +28,41 @@
         (click)="setAsBackground(img.id)"
         title="Click to set as background"
       />
+
+      
     </div>
+
+
+
+
+
 </div>
+<div><br>
+<h2>Select Background Color</h2><br>
+</div>
+<div>
+ 
+  
+ <div><input type="text" [(ngModel)]="colourData"/>
+  <button (click)="addColor()">ADD color</button>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+
+  <div 
+    *ngFor="let color of Colours"
+    [ngStyle]="getColorStyle(color.color)"
+    class="color-box"
+    (click)="selectColor(color)">
+    {{ color.color}}
+  </div>
+</div>
+<div style="margin-top: 20px;">
+  <button
+    mat-raised-button
+    [color]="isMaterialColor(selectedColor) ? selectedColor : null"
+    [ngStyle]="!isMaterialColor(selectedColor) ? {'background-color': selectedColor, 'color': getTextColor(selectedColor)} : {}">
+    Selected Color: {{ selectedColor || 'None' }}
+  </button>
+</div>
+  </div>

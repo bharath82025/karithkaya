@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38711b46-7c16-4a99-86c4-4e15260de62c" name="Changes" comment="bharath new Repo">
+      <change afterPath="$PROJECT_DIR$/Redis/Redis/src/main/java/com/Redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis/Redis/src/main/java/com/Redis/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/model/BackGroundColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/repo/BackGroundColorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/image-upload/image-upload.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/image-upload/image-upload.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/image-upload/image-upload.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/image-upload/image-upload.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/image-upload/image-upload.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/image-upload/image-upload.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/notification/notification.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/notification/notification.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/pages/admin/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/pages/admin/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/pages/admin/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/pages/admin/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/rabbitmq.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/rabbitmq.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/services/helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/services/helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/frontend/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/frontend/src/app/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/new_jwt-Micro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/config/DataIntalizeINDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/config/GatewayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/controller/UserDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/entity/JwtRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/entity/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/entity/UserData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/entity/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/filter/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/repository/UserReposs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/service/UserDataServ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/java/com/jwt_gateway/util/UserServDataFIlters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway/src/test/java/com/jwt_gateway/GatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/src/main/java/com/example/rabbitmqdemo/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/src/main/java/com/example/rabbitmqdemo/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/src/main/java/com/example/rabbitmqdemo/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/src/main/java/com/example/rabbitmqdemo/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/src/main/java/com/example/rabbitmqdemo/service/RabbitMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/src/main/java/com/example/rabbitmqdemo/service/RabbitMQListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/target/classes/com/example/rabbitmqdemo/config/RabbitConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/target/classes/com/example/rabbitmqdemo/config/RabbitConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/target/classes/com/example/rabbitmqdemo/controller/MessageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/target/classes/com/example/rabbitmqdemo/controller/MessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/target/classes/com/example/rabbitmqdemo/service/RabbitMQListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/rabbitmq-backend/target/classes/com/example/rabbitmqdemo/service/RabbitMQListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/controller/ImageUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/controller/ImageUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/services/ImageDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/new_jwt-Micro/service1/src/main/java/com/codingworld/service1/services/ImageDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/src/main/java/com/eurekaserver/server/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/src/test/java/com/eurekaserver/server/ServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/Service1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/controller/DataControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/controller/ImageDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/controller/ImageUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/controller/QuestionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/model/ImageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/model/ImageData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/model/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/repo/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/repo/ImageDataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/repo/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/repo/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/ImageDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/QuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/QuestionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/QuizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/java/com/codingworld/service1/services/QuizServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service1/src/test/java/com/codingworld/service1/Service1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/Service1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/controller/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/controller/Service1Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/model/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/repo/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/services/QuizService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/java/com/codingworld/service1/services/QuizServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service2/src/test/java/com/codingworld/service1/Service1ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wP8YqIsybwHBBrnt7jCJ9b4N0Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.GatewayApplication.executor": "Run",
+    "Application.ServerApplication.executor": "Run",
+    "Application.Service1Application (1).executor": "Run",
+    "Application.Service1Application.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "slave",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/karithkaya/new_jwt-Micro",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ServerApplication">
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jwt_gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jwt_gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eurekaserver.server.ServerApplication" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eurekaserver.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Service1Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingworld.service1.Service1Application" />
+      <module name="service1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingworld.service1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Service1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingworld.service1.Service1Application" />
+      <module name="service1 (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingworld.service1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerApplication" />
+        <item itemvalue="Application.GatewayApplication" />
+        <item itemvalue="Application.Service1Application (1)" />
+        <item itemvalue="Application.Service1Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38711b46-7c16-4a99-86c4-4e15260de62c" name="Changes" comment="" />
+      <created>1745931899088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745931899088</updated>
+    </task>
+    <task id="LOCAL-00001" summary="bharath new Repo">
+      <option name="closed" value="true" />
+      <created>1749518104963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749518104963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="bharath new Repo">
+      <option name="closed" value="true" />
+      <created>1749518191944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749518191944</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bharath new Repo">
+      <option name="closed" value="true" />
+      <created>1749518236244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749518236244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="bharath new Repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="bharath new Repo" />
+  </component>
+</project>

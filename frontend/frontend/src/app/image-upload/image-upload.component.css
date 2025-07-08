@@ -69,3 +69,12 @@
   transform: scale(1.05);
 }
 
+
+.color-box {
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+.color-box:hover {
+  transform: scale(1.05);
+}

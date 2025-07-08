@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { RabbitmqService } from '../rabbitmq.service';
 import { HttpClient } from '@angular/common/http';
+import { rabbitmqUrl } from '../services/otherNewUrls';
 
 @Component({
   selector: 'app-notification',
@@ -20,7 +21,7 @@ hflag:boolean=false
 visibleMessages: string[] = []; // w
 showAll: boolean = false;
   ngOnInit(): void {
-    this.history = "See all messages";
+    this.history = "See all messages from Redis memory";
 let check=localStorage.getItem("username");
 
 if(check=="admin"){
@@ -48,10 +49,10 @@ if(check=="admin"){
   }
   getHistory(){
     this.hflag=!this.hflag;
-  this.history = this.hflag ? "Hide all messages" : "See all messages";
+  this.history = this.hflag ? "Hide all from Redis memory" : "See all messages from Redis memory";
     
 
- this.http.get('http://localhost:8001/api/messages/history', {
+ this.http.get(`${rabbitmqUrl}/api/messages/history`, {
       responseType: 'text'
     }).subscribe((respose:any) =>{
       this.messages=JSON.parse(respose);
@@ -68,7 +69,7 @@ updateVisibleMessages() {
 
  sendMessage(): void {
     if (!this.newMessage.trim()) return;
-    this.http.post('http://localhost:8001/api/messages/send', this.newMessage, {
+    this.http.post(`${rabbitmqUrl}/api/messages/send`, this.newMessage, {
       responseType: 'text'
     }).subscribe(() => this.newMessage = '');
      

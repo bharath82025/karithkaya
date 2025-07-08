@@ -1,6 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit ,Renderer2} from '@angular/core';
 import Swal from 'sweetalert2';
+import { imageurl } from '../services/otherNewUrls';
+import { FlagsUiService } from '../flags-ui.service';
+import { UserService } from '../services/user.service';
 
 @Component({
   selector: 'app-image-upload',
@@ -14,14 +17,96 @@ export class ImageUploadComponent implements OnInit {
   imagePreview: string | ArrayBuffer | null = null;
 
   uploadedImages: string[] = [];
-  constructor(private http: HttpClient,private renderer: Renderer2) {
+
+Colours:any= [] 
+
+  constructor(private http: HttpClient,private renderer: Renderer2,private flagService: FlagsUiService,private userService:UserService) {
        this.fetchUploadedImages();
+   
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+        console.log("::::daa:::::::data")
+  this.userService.getBgColours().subscribe((data:any)=>{
+
+        console.log(":::::::::::data")
+      this.Colours =JSON.parse(data) ;
+    } , (error) => {
+      console.error("Error fetching colors:", error);
+    })
+  }
+
+selectedColor: string | null = null;
+
+isMaterialColor(color: string): boolean {
+  return ['primary', 'accent', 'warn'].includes(color);
+}
+
+
+
+colour={color:""}
+
+colourData:any
+selectColor(color:any){
+
+    this.flagService.setColor(color);
+
+
+
+  
+// this.flagService.setColor.subscribe((data:any)=>{
+
+// console.log(":::::::imageui::::data"+data)
+//     } , (error) => {
+//       console.error("Error for activating color colors:", error);})
+
+      this.selectedColor = color.color;
   }
 
 
+
+// For display box
+getColorStyle(color: string): any {
+  return this.isMaterialColor(color)
+    ? {
+        border: '1px solid #999',
+        padding: '10px',
+        textAlign: 'center',
+        width: '100px',
+        height: '50px',
+        cursor: 'pointer'
+      }
+    : {
+        backgroundColor: color,
+        color: this.getTextColor(color),
+        border: '1px solid black',
+        padding: '10px',
+        textAlign: 'center',
+        width: '100px',
+        height: '50px',
+        cursor: 'pointer'
+      };
+}
+
+// Light/dark contrast helper
+getTextColor(color: string | null): string {
+  if (!color) return 'black'; // fallback for null/undefined
+  const darkColors = ['black', 'blue', 'indigo', 'purple', 'brown', 'gray', 'teal'];
+  return darkColors.includes(color.toLowerCase()) ? 'white' : 'black';
+}
+addColor(){
+
+    
+       let obj={
+        "color": this.colourData,
+        "active": false}
+this.userService.addColor(obj).subscribe((data)=>{
+  console.log("data"+data)
+})
+  console.log(this.colourData)
+
+
+
+}
 
   onFileChange(event: any) {
     this.selectedFile = event.target.files[0];
@@ -46,7 +131,7 @@ export class ImageUploadComponent implements OnInit {
 
 
 
-    this.http.post('http://localhost:9001/api/images/upload', formData).subscribe({
+    this.http.post(`${imageurl}/api/images/upload`, formData).subscribe({
       next: () => {
         Swal.fire('Success', 'Image uploaded successfully!', 'success');
         this.description = '';
@@ -60,7 +145,7 @@ export class ImageUploadComponent implements OnInit {
   }
   imags:any=[];
 fetchUploadedImages() {
-  this.http.get<any[]>('http://localhost:9001/api/images').subscribe({
+  this.http.get<any[]>(`${imageurl}/api/images`).subscribe({
     next: (images: any[]) => {
 
 this.imags=images
@@ -80,9 +165,9 @@ this.imags=images
   }
 
 setAsBackground(id: any) {
-  const imageUrl = `http://localhost:9001/api/images/${id}`;
+  const imageUrl = `${imageurl}/api/images/${id}`;
 
-  this.http.post(`http://localhost:9001/images/set-background/${id}`, {})
+  this.http.post(`${imageurl}/images/set-background/${id}`, {})
     .subscribe(() => {
      
       Swal.fire('Success', 'Background set!', 'success');
@@ -100,7 +185,7 @@ setAsBackground(id: any) {
 
    
 loadBackgroundImage() {
-  this.http.get('http://localhost:9001/api/images/background', { responseType: 'blob' })
+  this.http.get(`${imageurl}/api/images/background`, { responseType: 'blob' })
     .subscribe(blob => {
       const reader = new FileReader();
       reader.onload = () => {
@@ -113,5 +198,7 @@ loadBackgroundImage() {
     });
   }
 
-
+sendData() {
+    this.flagService.changeMessage({ msg: 'success' });
+  }
 }

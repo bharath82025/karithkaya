@@ -2,9 +2,8 @@ import { Injectable } from '@angular/core';
 // import { Client, IMessage } from '@stomp/stompjs/esm6';
 import  SockJS from 'sockjs-client';
 import { Client, IMessage }  from '@stomp/stompjs';
-
+import {rabbitmqUrl} from './services/otherNewUrls'
 import { Subject } from 'rxjs';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -17,7 +16,7 @@ export class RabbitmqService {
   public messageStream$ = this.messageSubject.asObservable();
 
   connect(): void {
-    const socket = new SockJS('http://localhost:8001/ws'); // ✅ Your backend endpoint
+    const socket = new SockJS(`${rabbitmqUrl}/ws`); // ✅ Your backend endpoint
     this.stompClient = new Client({
       webSocketFactory: () => socket,
       reconnectDelay: 5000,

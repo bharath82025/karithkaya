@@ -1,5 +1,5 @@
-<mat-card>
-  <mat-action-list>
+<mat-card  [style.background-color]="colour">
+  <mat-action-list   [style.background-color]="colour">
     <div mat-subheader>Menu</div>
     <button routerLink="/admin" mat-list-item>
       <mat-icon mat-list-icon>home</mat-icon> Home
@@ -20,7 +20,7 @@
       <mat-icon mat-list-icon>add</mat-icon> Add Quiz
     </button>
     
-     <button mat-list-item   routerLink="/admin/imageSettings">
+     <button  mat-list-item *ngIf="show"  routerLink="/admin/imageSettings">
       <mat-icon mat-list-icon>edit</mat-icon> Theam Setting
     </button>
     
